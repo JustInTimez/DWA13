@@ -5,8 +5,8 @@ Dynamic Web Apps 13: Higher Order Functions - Challenge 1
 For this challenge, I am required to use the supplied data and complete a series of objectives, outlined below.
 
 
-- [] Use forEach to console log each name to the console. You are allowed to call console.log seven times.
-- [] Use forEach to console log each name with a matching province (for example Ashwin (Western Cape). Note that you are only allowed to call console.log seven times.
+- [X] Use forEach to console log each name to the console. You are allowed to call console.log seven times.
+- [X] Use forEach to console log each name with a matching province (for example Ashwin (Western Cape). Note that you are only allowed to call console.log seven times.
 - [] Using map loop over all province names and turn the string to all uppercase. Log the new array to the console.
 - [] Create a new array with map that has the amount of characters in each name. The result should be: [6, 9, 11, 5, 8, 7, 7]
 - [] Using toSorted to sort all provinces alphabetically.
@@ -47,5 +47,5 @@ const products = [
 - [] Use reduce to concatenate all product names to create the following string: banana, mango, potato, avocado, coffee and tea.
 - [] Use reduce to calculate both the highest and lowest-priced items. The names should be returned as the following string: Highest: coffee. Lowest: banana.
 - [] Using only Object.entries and reduce recreate the object with the exact same values. However, the following object keys should be changed in the new array:
-    - [] product should be changed to name
-    - [] price should be changed to cost
+  - [] product should be changed to name
+  - [] price should be changed to cost
