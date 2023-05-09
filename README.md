@@ -42,7 +42,7 @@ const products = [
   { product: 'tea', price: '' },
 ]
 - [X] Use forEach to console.log each product name to the console.
-- [] Use filter to filter out products that have a name longer than 5 characters
+- [X] Use filter to filter out products that have a name longer than 5 characters
 - [] Using both filter and map. Convert all prices that are strings to numbers, and remove all products from the array that do not have prices. - [] After this has been done then use reduce to calculate the combined price of all remaining products.
 - [] Use reduce to concatenate all product names to create the following string: banana, mango, potato, avocado, coffee and tea.
 - [] Use reduce to calculate both the highest and lowest-priced items. The names should be returned as the following string: Highest: coffee. Lowest: banana.
