@@ -1,4 +1,5 @@
 import { names, provinces } from "./data/data-drop.js";
+import { products } from "./data/products-data.js";
 
 
 console.log("1. Use forEach to console log each name to the console. You are allowed to call console.log seven times.");
@@ -42,3 +43,14 @@ const provinceByNames = names.reduce((acc, name, index) => {
 }, {});
 
 console.log(provinceByNames);
+
+
+// Second Section of Challenge
+
+console.log("9. Use forEach to console.log each product name to the console.");
+products.forEach(product => console.log(product.product));
+
+
+console.log("2. Use filter to filter out products that have a name longer than 5 characters");
+const filteredProducts = products.filter(product => product.product.length <= 5);
+console.log(filteredProducts);

@@ -6,11 +6,11 @@ For this challenge, I am required to use the supplied data and complete a series
 
 
 - [X] Use forEach to console log each name to the console. You are allowed to call console.log seven times.
-- [X] Use forEach to console log each name with a matching province (for example Ashwin (Western Cape). Note that you are only allowed to call console.log seven times.
-- [] Using map loop over all province names and turn the string to all uppercase. Log the new array to the console.
-- [] Create a new array with map that has the amount of characters in each name. The result should be: [6, 9, 11, 5, 8, 7, 7]
-- [] Using toSorted to sort all provinces alphabetically.
-- [] Use filter to remove all provinces that have the word Cape in them. After filtering the array, return the amount of provinces left. The final value should be 3
+- [X] Use forEach to console log each name with a matching province for example Ashwin (Western Cape). Note that you are only allowed to call console.log seven times.
+- [X] Using map loop over all province names and turn the string to all uppercase. Log the new array to the console.
+- [X] Create a new array with map that has the amount of characters in each name. The result should be: [6, 9, 11, 5, 8, 7, 7]
+- [X] Using toSorted to sort all provinces alphabetically.
+- [X] Use filter to remove all provinces that have the word Cape in them. After filtering the array, return the amount of provinces left. The final value should be 3
 - [] Create a boolean array by using map and some to determine whether a name contains an S character. The result should be [true, true, false, true, false, true, false]
 - [] Using only reduce, turn the above into an object that indicates the province of an individual. In other words:
 
@@ -41,7 +41,7 @@ const products = [
   { product: 'coffee', price: 10 },
   { product: 'tea', price: '' },
 ]
-- [] Use forEach to console.log each product name to the console.
+- [X] Use forEach to console.log each product name to the console.
 - [] Use filter to filter out products that have a name longer than 5 characters
 - [] Using both filter and map. Convert all prices that are strings to numbers, and remove all products from the array that do not have prices. - [] After this has been done then use reduce to calculate the combined price of all remaining products.
 - [] Use reduce to concatenate all product names to create the following string: banana, mango, potato, avocado, coffee and tea.
