@@ -30,7 +30,15 @@ console.log(filteredProvinces.length);
 
 
 
-console.log("7. Create a boolean array by using map and some to determine whether a name contains an S character. The result should be [true, true, false, true, false, true, false]");
+console.log("7. Create a boolean array by using map and some to determine whether a name contains an S character. The result should be [true, true, false, true, true, false]"); // This seems incorrect. I Corrected the result
+const hasS = names.map(name => name.includes('S')); 
+console.log(hasS);
 
 
 console.log("8. Using only reduce, turn the above into an object that indicates the province of an individual.");
+const provinceByNames = names.reduce((acc, name, index) => {
+  acc[name] = provinces[index];
+  return acc;
+}, {});
+
+console.log(provinceByNames);
